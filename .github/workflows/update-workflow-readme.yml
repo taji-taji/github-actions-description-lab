@@ -1,0 +1,17 @@
+name: 'Update workflow README'
+description: |
+  this is test description
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/*.yml'
+
+jobs:
+  update_workflow_readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: update
+        run: |
+          echo 'aaa'
+
