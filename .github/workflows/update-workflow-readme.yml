@@ -1,6 +1,5 @@
 name: 'Update workflow README'
-description: |
-  this is test description
+description: 'this is test description'
 
 on:
   pull_request:
